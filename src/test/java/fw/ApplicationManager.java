@@ -28,7 +28,7 @@ public class ApplicationManager {
             wd = new InternetExplorerDriver();
         }
 
-        wd = new InternetExplorerDriver();
+        wd = new ChromeDriver();
         wd.manage().window().maximize();
         openSite("https://yandex.ru/");
 

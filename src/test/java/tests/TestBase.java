@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeClass;
 public class TestBase {
 
     protected static ApplicationManager app =
-            new ApplicationManager(System.getProperty("browser" ,BrowserType.IE));
+            new ApplicationManager(System.getProperty("browser" ,BrowserType.CHROME));
 
     @BeforeClass
     public void setUp() {
