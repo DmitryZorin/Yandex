@@ -10,7 +10,6 @@ public class MainPageHelper extends HelperBase{
     }
 
     public void goToMarket() {
-
         click(By.cssSelector("[data-id='market']"));
     }
 }

@@ -12,7 +12,7 @@ public class ApplicationManager {
     MainPageHelper mainPage;
     MarketHeaderHelper marketHeader;
     MarketItemHelper marketItem;
-    private String browser;
+    String browser;
 
     public ApplicationManager(String browser) {
         this.browser = browser;
@@ -28,7 +28,7 @@ public class ApplicationManager {
             wd = new InternetExplorerDriver();
         }
 
-        wd = new ChromeDriver();
+       // wd = new ChromeDriver();
         wd.manage().window().maximize();
         openSite("https://yandex.ru/");
 
